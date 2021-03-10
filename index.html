@@ -1,23 +1,61 @@
----
-layout: default
----
 
-<div class="home">
+<header style="padding-left: 1000px;" style="padding-right: 50px;" style="color: aquamarine;"> 
+  <nav style="margin-top: 15px;" style="padding: 10px;">
+    <a href="google.com"><img src="/Users/davidansa/portfolio/media/Memoji.JPG" alt="Home Page" style="height: 50px;width: 50px;"></a>
+    <a href="google.com">Hello <style></style></a>
+    <a href="/about.html">About</a>
+    <a href="file:///Users/davidansa/portfolio/contact.html">Contact</a>
+  </nav>
+  
 
-  <h1 class="page-heading">Posts</h1>
+</header>
+<br>
+<br>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<main style="padding-left: 1000px;">
+  <section id="mainBody">
+    <p> How will the world cope now?</p>
+    <label id="name">Name: </label>
+    <input id="name" type="text" required>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <br>
+    
+    <label for="yesno">Are you well?</label>
+    <label id="yes">Yes</label>
+    <input id="yesno" name="yes" type="radio" required>
+    <label id="no">No</label>
+    <input id="yesno" name="no" type="radio" required>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <br>
 
-</div>
+    <input type="button" value="Submit" id="yesno" >
+
+  </section>
+
+<br>
+
+  <section>
+    <div class="home">
+
+      <h1 class="page-heading">Posts</h1>
+      <h1>Does this even work?</h1>
+    
+    
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    
+    </div>
+  </section>
+
+
+</main>
+
+<br>
+
+<footer style="padding-left: 1000px;">
+  <span>
+    <p><strong>Contact Me: </strong>davidansa00@gmail.com</p> 
+    <a href="github.com/da5905p"><img src="/Users/davidansa/portfolio/media/GitHub_Logo.png" style="width: 50px; height: 25px;"></a>
+  </span>
+  
+  
+</footer>
