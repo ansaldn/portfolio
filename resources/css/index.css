@@ -8,27 +8,25 @@ header {
     font-size: 20px;
     position: center;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
-header .ul{
-    left: auto;
-    background-color: black;
-    color: aquamarine;
-    display: inline;
+header li{
+    background-color: white;
+    color: black;
+    display: inline-block;
     list-style: none;
     list-style-type: none;
 
 }
 
-button {
-    color: red;
-    width: 30px;
-    height: 5px;
+header li :hover{
+    background-color: black;
+    color: blue;
 }
 
-button.hover {
-    color: aquamarine;
-}
+
 
 body {
     text-align: center;
@@ -42,14 +40,9 @@ body {
 #navbutton {
     padding: 3px;
     margin: 3px;
-    background-color: aquamarine;
     color: black;
 }
 
-#navbutton.hover{
-    background-color: white;
-    color: black;
-}
 
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
