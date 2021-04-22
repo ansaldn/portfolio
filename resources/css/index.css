@@ -22,8 +22,8 @@ header li{
 }
 
 header li :hover{
-    background-color: black;
-    color: blue;
+    background-color: aqua;
+    color: black;
 }
 
 
