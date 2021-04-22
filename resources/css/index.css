@@ -3,6 +3,7 @@
 
 
 header {
+    border: 5px;
     border-color: aliceblue;
     color: yellowgreen;
     font-family: sans-serif;
@@ -37,7 +38,7 @@ body {
 
 section {
     border: 3px;
-    border-color: cadetblue;
+    border-color: red;
     margin: 15px;
 }
 
