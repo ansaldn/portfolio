@@ -33,6 +33,12 @@ body {
     font-family: sans-serif;
 }
 
+section {
+    border: 3px;
+    border-color: cadetblue;
+    margin: 15px;
+}
+
 #navbar{
     border: 1px;
 }
