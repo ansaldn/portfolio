@@ -3,7 +3,7 @@
 
 
 header {
-    border: 5px;
+    border: 7px;
     border-color: aliceblue;
     color: yellowgreen;
     font-family: sans-serif;
@@ -25,26 +25,72 @@ header li{
 
 }
 
-header li :hover{
+/* header li :hover{
     background-color: aqua;
     color: black;
+} */
+
+.button {
+    background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+
+}
+#navbar {
+    color: black;
+
+}
+
+#navbuttonAbout {
+    border-radius: 5px;
+    animation: ease-in;
+}
+#navbuttonAbout :hover {
+    background-color: red;
+}
+
+#navbuttonContact {
+    background-color: yellow;
+}
+
+#navbuttonContact :hover {
+    background-color: red;
+}
+
+#navbuttonLogIn :hover {
+    cursor: auto;
 }
 
 
+
+main h1 :hover {
+    background-color: red;
+}
 
 body {
     text-align: center;
     font-family: sans-serif;
 }
 
+#mainBody h1 {
+    color: red;
+
+}
+
 section {
-    border: 3px;
+    border: 10px;
     border-color: red;
     margin: 15px;
 }
 
 #navbar{
     border: 1px;
+    background-color: blue;
 }
 
 #navbutton {
@@ -53,6 +99,26 @@ section {
     color: black;
 }
 
+.column {
+    border-right: 2px solid black;
+    display: inline-block;
+    flex: 50%;
+    padding: 10px;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.row ::after {
+    display: flex;
+}
+
+#column2 {
+    border-radius: 2px;
+    border-color: #0f1111;
+    margin: 3px;
+}
 
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
